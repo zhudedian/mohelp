@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".config.WifiListActivity"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:focusable="false"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#000000"
+        android:text="可用WLAN列表"
+        />
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="460dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:transitionName="image"
+            android:scaleType="fitXY"
+            android:src="@drawable/back_enter_wifi_password"/>
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:dividerHeight="1px"
+            android:divider="#a6666873"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

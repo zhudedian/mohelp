@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <skill title="算数" content1="145乘1加2是多少" content2="1减1加2等于多少"  />
+    <skill title="天气" content1="明天下雨吗" content2="深圳现在下雨吗"  />
+    <skill title="时间" content1="纽约时间" content2="愚人节是什么时候"  />
+    <skill title="汇率" content1="1港币等于多少美元" content2="1欧元等于多少人民币"  />
+    <skill title="闹钟" content1="明天上午7点提醒我做早餐" content2="明天早上八点叫我"  />
+    <skill title="音乐" content1="我喜欢这首歌" content2="我要听泡沫不要邓紫棋唱的"  />
+    <skill title="音箱控制" content1="列表循环" content2="继续"  />
+    <skill title="新闻" content1="播放深圳新闻" content2="我想听财经新闻"  />
+    <skill title="百科" content1="蜘蛛" content2="北京"  />
+    <skill title="笑话" content1="说个笑话" content2="你讲一个笑话吧"  />
+    <skill title="闲聊" content1="我帅吗" content2="你在干什么啊"  />
+    <skill title="电台" content1="我想听盗墓笔记" content2="给我讲个小红帽的故事"  />
+    <skill title="黄历查询" content1="今天适合出行吗" content2="我想查后天黄历"  />
+    <skill title="诗词" content1="背一首李白的试" content2="慈母手中线的下一句"  />
+    <skill title="故事" content1="讲一个故事" content2="我想听愚公移山的故事"  />
+
+
+
+</resources>

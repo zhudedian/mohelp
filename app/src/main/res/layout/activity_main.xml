@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#181818">
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:text="@string/music"
+                android:textSize="20sp"
+                android:textColor="@color/defult_text_color"/>
+            <LinearLayout
+                android:id="@+id/setting_linear"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:padding="10dp"
+                android:gravity="center">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_setting_white"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/defult_text_color"
+                    android:textSize="20sp"
+                    android:text="@string/settings"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:id="@+id/device_disconnect_linear"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:visibility="gone"
+            android:gravity="center"
+            android:background="#ef5050">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/device_not_connect"
+                android:textSize="16sp"
+                android:textColor="#ffffff"/>
+        </LinearLayout>
+        <com.edong.mohelp.view.SpringScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:layout_weight="5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <include layout="@layout/frag_music_home"
+                    android:id="@+id/music_home"/>
+                <include layout="@layout/frag_skill_home"
+                    android:visibility="gone"
+                    android:id="@+id/skill_home"/>
+                <include layout="@layout/frag_home_config_login"
+                    android:visibility="gone"
+                    android:id="@+id/config_login_home"/>
+            </RelativeLayout>
+        </com.edong.mohelp.view.SpringScrollView>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#262626">
+
+            <com.edong.mohelp.view.BottomItem
+                android:id="@+id/music"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:tag="@string/music"/>
+            <com.edong.mohelp.view.BottomItem
+                android:id="@+id/skill"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:tag="@string/skill_center"/>
+            <com.edong.mohelp.view.BottomItem
+                android:id="@+id/net_work"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:tag="@string/net_connect_tip"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

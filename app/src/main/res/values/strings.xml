@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MoHelp</string>
+
+
+    <string name="music">音乐</string>
+    <string name="skill_center">技能中心</string>
+    <string name="net_connect_tip">联网说明</string>
+    <string name="no_network">未联网</string>
+    <string name="settings">设置</string>
+    <string name="my_device">我的设备</string>
+
+    <string name="style">风格</string>
+    <string name="popular">流行</string>
+    <string name="classical">古典</string>
+    <string name="electronic">电子</string>
+    <string name="rock">摇滚</string>
+    <string name="classic">经典</string>
+    <string name="children">儿歌</string>
+    <string name="folk">民谣</string>
+    <string name="rap">说唱</string>
+
+    <string name="singer_selected">歌手精选</string>
+    <string name="zhou_jie_lun">周杰伦</string>
+    <string name="sun_yan_zi">孙燕姿</string>
+    <string name="xue_zhi_qian">薛之谦</string>
+    <string name="tf_boy">TFBOYS</string>
+    <string name="justin_bieber">Justin Bieber</string>
+    <string name="bruno_mars">Bruno Mars</string>
+    <string name="sia">SIA</string>
+    <string name="taylor_swift">TAYLOR SWIFT</string>
+
+    <string name="enter_wifi_password">输入Wi-Fi密码</string>
+    <string name="default_wifi_name">请选择Wi-Fi</string>
+
+    <string name="already_config_mode">已进入配网模式，下一步</string>
+    <string name="configing_please_waite">正在配网中，请稍后……</string>
+
+    <string name="device_not_connect">设备未连接</string>
+    <string name="music_text_notice">收集一周内用户所听到的流行音乐，每周一更新</string>
+</resources>

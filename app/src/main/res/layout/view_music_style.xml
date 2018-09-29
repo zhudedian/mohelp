@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="360dp"
+    android:layout_height="255dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="@string/style"
+        android:textSize="16sp"
+        android:textColor="#e6000000"/>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:layout_height="90dp">
+        <com.edong.mohelp.view.MusicHomeItem
+            android:id="@+id/style_popular"
+            style="@style/HomeMusicItem"
+            android:tag="@string/popular"/>
+        <com.edong.mohelp.view.MusicHomeItem
+            android:id="@+id/style_classical"
+            style="@style/HomeMusicItem"
+            android:tag="@string/classical"/>
+        <com.edong.mohelp.view.MusicHomeItem
+            android:id="@+id/style_electronic"
+            style="@style/HomeMusicItem"
+            android:tag="@string/electronic"/>
+        <com.edong.mohelp.view.MusicHomeItem
+            android:id="@+id/style_rock"
+            style="@style/HomeMusicItem"
+            android:tag="@string/rock"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="90dp">
+        <com.edong.mohelp.view.MusicHomeItem
+            android:id="@+id/style_classic"
+            style="@style/HomeMusicItem"
+            android:tag="@string/classic"/>
+        <com.edong.mohelp.view.MusicHomeItem
+            android:id="@+id/style_children"
+            style="@style/HomeMusicItem"
+            android:tag="@string/children"/>
+        <com.edong.mohelp.view.MusicHomeItem
+            android:id="@+id/style_folk"
+            style="@style/HomeMusicItem"
+            android:tag="@string/folk"/>
+        <com.edong.mohelp.view.MusicHomeItem
+            android:id="@+id/style_rap"
+            style="@style/HomeMusicItem"
+            android:tag="@string/rap"/>
+    </LinearLayout>
+
+</LinearLayout>

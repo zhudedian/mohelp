@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#b1b1b1</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="defult_text_color">#ffffff</color>
+    <color name="green_text_color">#00af1d</color>
+    <color name="wifi_signal_gray">#537e7e7e</color>
+    <color name="divider_music_list">#8f8f8f</color>
+    <color name="orange">#FFA500</color>
+</resources>
